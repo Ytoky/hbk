@@ -1,0 +1,22 @@
+@mixin opensans16($font_s, $line_h) {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: $font_s;
+    line-height: $line_h;
+}
+
+@mixin border_buttons {
+    border: 1px solid #D6DBE0;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+@mixin stem_normal($font_s, $line_h) {
+    font-family: 'Stem';
+    font-style: normal;
+    font-weight: 500;
+    font-size: $font_s;
+    line-height: $line_h;
+    margin: 0;
+}
