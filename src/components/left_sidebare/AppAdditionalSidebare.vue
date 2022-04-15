@@ -80,17 +80,14 @@ export default {};
 
 <style lang="scss" scoped>
 .container {
-  position: absolute;
-  top: 1200px;
-
   width: 322px;
   background-color: #fff;
   display: flex;
   flex-direction: column;
   border: #fff;
   border-radius: 10px;
+  margin-top: 380px;
   padding: 45px 0;
-  margin-right: 45px;
   .avatar {
     height: 100px;
     width: 100px;
@@ -161,8 +158,8 @@ export default {};
     }
   }
   .block_button {
-      display: flex;
-      justify-content: center;
+    display: flex;
+    justify-content: center;
     margin-top: 120px;
     button {
       @include border_buttons;
@@ -170,7 +167,7 @@ export default {};
       height: 50px;
       width: 215px;
       color: #fff;
-      background-color: #FF5561;
+      background-color: #ff5561;
     }
   }
 }

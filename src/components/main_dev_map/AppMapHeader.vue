@@ -24,7 +24,7 @@
             Способен планировать и выполнять самостоятельно несложные задачи
             длительностью не более 1-2 дней
           </p>
-          <p>
+          <p class="p_padding">
             Лучшей практикой для такого специалиста будет набор задач объемом по
             2-4 часа каждая
           </p>
@@ -74,7 +74,6 @@ export default {};
     .request_column {
       display: flex;
       flex-direction: column;
-      gap: 11px;
       .column_title {
         display: flex;
         background-color: #f2f7fc;
@@ -89,11 +88,20 @@ export default {};
           align-self: center;
         }
       }
-      .column_context{
-          display: flex;
-          p{
-              
-          }
+      .column_context {
+        display: flex;
+        flex-direction: column;
+        margin-top: 15px;
+        p {
+          margin: 0;
+          @include opensans16(10px, 16px);
+          padding-left: 15px;
+          color: #121212;
+          
+        }
+        .p_padding{
+          padding-top: 15px;
+        }
       }
     }
   }

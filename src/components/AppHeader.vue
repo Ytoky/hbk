@@ -35,10 +35,14 @@ export default {};
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style  lang="scss" scoped>
+.wrap{
+margin-left: 40px; //для div map main 
+}
 header {
   display: grid;
   width: 1280px;
   height: 50px;
+
   grid-template-columns: 290px 600px 290px;
   gap: 20px;
   margin-top: 30px;

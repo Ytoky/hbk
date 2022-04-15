@@ -22,6 +22,5 @@ html {
 }
 ._container {
   width: 1280px;
-  padding: 0 30px;
 }
 </style>
